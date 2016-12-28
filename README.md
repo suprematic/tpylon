@@ -35,8 +35,8 @@ while cam:IsGrabbing() do
 
     -- increase exposure time by 2ms
     if exposure < 1000*1000 then
-	exposure = exposure + 2000
-	cam.GenApiValues.ExposureTime = exposure
+        exposure = exposure + 2000
+        cam.GenApiValues.ExposureTime = exposure
     end
 end		
 ```
