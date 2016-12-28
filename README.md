@@ -5,7 +5,7 @@ While the basic code seems to work, I'd like to point out, that it still in earl
 
 ## Current TODO list and development targets
  - [x] Test ACE, Pulse & Dart cameras
- - [x] Handle different image packing other than RGB8 - ByteTensor 3 * h * w
+ - [ ] Handle pixel formats other than RGB8 (ByteTensor 3/h/w)
  - [x] Read camera info
  - [x] Read/Write GenICam properties
  - [ ] Fully expose GenICam metadata
