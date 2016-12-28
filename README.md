@@ -4,7 +4,7 @@ An experimental [Torch7](http://torch.ch/) (Lua) client for [Basler](http://www.
 While the basic code seems to work, I'd like to point out, that it still in early alpha stage. You will probably stumble over bugs.
 
 ## Current TODO list and development targets
- - [x] Test ACE, Pulse & Dart cameras
+ - [x] Tested with ACE, Pulse & Dart cameras
  - [ ] Handle pixel formats other than RGB8 (ByteTensor 3/h/w)
  - [x] Read camera info
  - [x] Read/Write GenICam properties
