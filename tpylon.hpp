@@ -1,3 +1,4 @@
+// Copyright (c) 2016, Alexey Aristov (Suprematic UG, http://www.suprematic.net) - All rights reserved.
 #ifndef _TPYLON_HPP
 #define _TPYLON_HPP
 
