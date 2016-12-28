@@ -26,17 +26,17 @@ cam.GenApiValues.ExposureTime = 10000
 local exposure = cam.GenApiValues.ExposureTime;
 
 while cam:IsGrabbing() do
-        -- retrieve next frame from the camera
-	local frame  = cam:Retrieve()
+    -- retrieve next frame from the camera
+    local frame  = cam:Retrieve()
 
-        -- rescale and display image
-	local scaled = image.scale(frame, 1024, 768, 'simple')
-	window = image.display{win=window, image=scaled}
+    -- rescale and display image
+    local scaled = image.scale(frame, 1024, 768, 'simple')
+    window = image.display{win=window, image=scaled}
 
-        -- increase exposure time by 2ms
-	if exposure < 1000*1000 then
-		exposure = exposure + 2000
-		cam.GenApiValues.ExposureTime = exposure
-	end
+    -- increase exposure time by 2ms
+    if exposure < 1000*1000 then
+	exposure = exposure + 2000
+	cam.GenApiValues.ExposureTime = exposure
+    end
 end		
 ```
