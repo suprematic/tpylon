@@ -1,5 +1,5 @@
 # TPylon
-An experimental [Torch7](http://http://torch.ch/) (Lua) client for [Basler](http://www.baslerweb.com) machine vision cameras. 
+An experimental [Torch7](http://torch.ch/) (Lua) client for [Basler](http://www.baslerweb.com) machine vision cameras. 
 
 While the basic code seems to work, I'd like to point out, that it still in early alpha stage. You will probably stumble over bugs.
 
